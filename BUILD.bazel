@@ -1,12 +1,12 @@
 load("@bazel_gazelle//:def.bzl", "gazelle")
-load("//tools/build_defs/license:license.bzl", "license")
+#load("//tools/build_defs/license:license.bzl", "license")
 
 # Google Cloud Platform Buildpacks
 package(default_visibility = ["//visibility:public"])
 
-licenses(["notice"])
+#licenses(["notice"])
 
-exports_files(["LICENSE"])
+#exports_files(["LICENSE"])
 
 # gazelle:prefix https://github.com/GoogleCloudPlatform/buildpacks
 gazelle(name = "gazelle")
